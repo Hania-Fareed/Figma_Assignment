@@ -2,20 +2,150 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Header Page */
+.headerContainer{
+  display: flex;
+  justify-content: left;
+  margin-left: 350px;
+  gap: 55px;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 20px;
+  color: gray;
+  font-weight: 500;
+}
+.cyber{
+  color: black;
+  font-weight: 1000;
+}
+.icons{
+  margin-top: 9px;
+  color: black;
+  font-weight: 400;
+}
+.home{
+  color: black;
+}
+/* Home Page */
+.parentContainer{
+  background-color: rgb(36, 27, 36);
+  width: 1440px;
+  height: 624px;
+  margin-left: 200px;
+}
+h1{
+  color: gray;
+  font-size: 30px;
+}
+h2{
+  color: white;
+  font-size: 100px;
+}
+.heading{
+  margin-left: 200px;
+  padding-top: 10%;
+}
+.heading2{
+  margin-left: 200px;
+  padding-top: -10%;
+  font-weight: lighter;
+}
+.pro{
+  font-weight: 500;
+}
+.descripion{
+  margin-left: 200px;
+  padding-top: -5%;
+  color: gray;
+  font-weight: 500;
+}
+.shopNow{
+  color: white;
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  margin-left: 200px;
+  margin-top: 80px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10%;
+  border: 3px solid white;
+}
+.picture{
+  margin-left: 1000px;
+  margin-top: -500px;
+}
+/* frame 02
+.frameTwo{
+  width: 720px;
+  height: 600px;
+  background-color: white;
+}
+.playStation{
+  margin-left: 350px;
+  margin-top: 90px;
+  color: black;
+  font-weight: 500;
+  font-size: 55px;
+}
+.stationDescription{
+  margin-left: 350px;
+  margin-top: 5px;
+  color: gray;
+  font-size: 15px;
+}
+.stationPicture{
+  margin-top: -250px;
+}
+/* frame 03
+.frameThree{
+  width: 720px;
+  height: 600px;
+  background-color: lightgray;
+  margin-left: 800px;
+  margin-top: -690px;
+}
+.macbookAir{
+  margin-left: 870px;
+  margin-top: -470px;
+  font-size: 70px;
+  font-weight: lighter;
+  color: black;
+}
+.macbook{
+  font-weight: 100;
+  margin-top: 15px;
+}
+.air{
+  font-size: 70px;
+  font-weight: 500;
+}
+.macDescription{
+  margin-left: 870px;
+  margin-top: 5px;
+  color: gray;
+  font-size: 15px;
+}  */
+  /* Banner */
+  .bannerPicture{
+    margin-left: 200px;
   }
+  .category{
+    margin-left: 200px;
+  }
+.products{
+  margin-left: 200px;
 }
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.banner{
+  margin-left: 200px;
+}
+.discount{
+  margin-left: 200px;
+}
+.banner2{
+  margin-left: 200px;
+}
+.footer{
+  margin-left: 200px;
 }
